@@ -1,5 +1,5 @@
-const App = () => {
-	return <></>;
-};
+import { JumbotronContainer } from './containers/jumbotron';
 
-export default App;
+export default function App() {
+	return <JumbotronContainer />;
+}

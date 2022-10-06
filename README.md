@@ -4,7 +4,7 @@ A Netflix clone built with React.
 
 ## Demo
 
-[Link]()
+[Link](https://regal-smakager-bf769d.netlify.app/)
 
 ## Getting Started
 
