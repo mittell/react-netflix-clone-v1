@@ -17,6 +17,4 @@ const fb = firebase.initializeApp(config);
 
 // seedDatabase(fb);
 
-console.log(config.authDomain);
-
 export { fb };
