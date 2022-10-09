@@ -60,7 +60,7 @@ export default function Signin() {
 
 					<Form.Text>
 						New to Netflix?{' '}
-						<Form.Link to={ROUTES.SIGN_UP}>Sign up now.</Form.Link>
+						<Form.Link to={ROUTES.SIGN_UP}>Sign up now</Form.Link>.
 					</Form.Text>
 					<Form.TextSmall>
 						This page is protected by Google reCAPTCHA to ensure you're not a
