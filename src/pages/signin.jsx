@@ -1,4 +1,5 @@
 import React, { useState, useContext } from 'react';
+import { useHistory } from 'react-router-dom';
 import { FirebaseContext } from '../context/firebase';
 import * as ROUTES from '../constants/routes';
 
@@ -9,6 +10,8 @@ import { Form } from '../components';
 
 export default function Signin() {
 	const { fb } = useContext(FirebaseContext);
+	const history = useHistory();
+
 	const [emailAddress, setEmailAddress] = useState('');
 	const [password, setPassword] = useState('');
 	const [error, setError] = useState('');
@@ -17,6 +20,17 @@ export default function Signin() {
 
 	const handleSignIn = (event) => {
 		event.preventDefault();
+
+		fb.auth()
+			.signInWithEmailAndPassword(emailAddress, password)
+			.then(() => {
+				history.push(ROUTES.BROWSE);
+			})
+			.catch((error) => {
+				setEmailAddress('');
+				setPassword('');
+				setError(error.message);
+			});
 	};
 
 	return (
