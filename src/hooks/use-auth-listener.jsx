@@ -20,7 +20,7 @@ export default function useAuthListener() {
 		});
 
 		return () => listener();
-	});
+	}, [fb]);
 
 	return { user };
 }
