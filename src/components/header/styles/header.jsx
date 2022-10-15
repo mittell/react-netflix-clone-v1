@@ -211,3 +211,23 @@ export const SearchInput = styled.input`
 		background-color: rgba(0, 0, 0, 0.8);
 	}
 `;
+
+export const PlayButton = styled.button`
+	box-shadow: 0 0.6vw 1vw -0.4vw rgba(0, 0, 0, 0.35);
+	background-color: #e6e6e6;
+	color: #000;
+	border-width: 0;
+	padding: 10px 20px;
+	border-radius: 5px;
+	max-width: 130px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 30px;
+	cursor: pointer;
+	transition: background-color 0.5s ease;
+
+	&:hover {
+		background-color: #ff1e1e;
+		color: white;
+	}
+`;
