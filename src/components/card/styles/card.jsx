@@ -147,7 +147,7 @@ export const Meta = styled.div`
 	position: absolute;
 	bottom: 0;
 	padding: 10px;
-	background-color: #00000008;
+	background-color: #0000008f;
 `;
 
 export const Entities = styled.div`
