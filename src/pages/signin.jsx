@@ -59,7 +59,7 @@ export default function Signin() {
 					</Form.Base>
 
 					<Form.Text>
-						New to Netflix?{' '}
+						New to Aniflix?{' '}
 						<Form.Link to={ROUTES.SIGN_UP}>Sign up now</Form.Link>.
 					</Form.Text>
 					<Form.TextSmall>

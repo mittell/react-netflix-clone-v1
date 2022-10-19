@@ -1,7 +1,7 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { FirebaseContext } from '../context/firebase';
 import * as ROUTES from '../constants/routes';
-import logo from '../logo.svg';
+import logo from '../logo.png';
 import Fuse from 'fuse.js';
 
 import { SelectProfileContainer } from './profiles';
@@ -51,7 +51,7 @@ export function BrowseContainer({ slides }) {
 			<Header src='joker1' dontShowOnSmallViewPort>
 				<Header.Frame>
 					<Header.Group>
-						<Header.Logo to={ROUTES.HOME} src={logo} alt='Netflix' />
+						<Header.Logo to={ROUTES.HOME} src={logo} alt='Aniflix' />
 						<Header.TextLink
 							active={category === 'series' ? 'true' : 'false'}
 							onClick={() => setCategory('series')}
