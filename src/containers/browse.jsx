@@ -1,7 +1,7 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { FirebaseContext } from '../context/firebase';
 import * as ROUTES from '../constants/routes';
-import logo from '../logo.svg';
+import logo from '../logo.png';
 import Fuse from 'fuse.js';
 
 import { SelectProfileContainer } from './profiles';
@@ -48,10 +48,10 @@ export function BrowseContainer({ slides }) {
 		<>
 			{loading ? <Loading src={user.photoURL} /> : <Loading.ReleaseBody />}
 
-			<Header src='joker1' dontShowOnSmallViewPort>
+			<Header src='evangelion-2' dontShowOnSmallViewPort>
 				<Header.Frame>
 					<Header.Group>
-						<Header.Logo to={ROUTES.HOME} src={logo} alt='Netflix' />
+						<Header.Logo to={ROUTES.HOME} src={logo} alt='Aniflix' />
 						<Header.TextLink
 							active={category === 'series' ? 'true' : 'false'}
 							onClick={() => setCategory('series')}
@@ -87,13 +87,15 @@ export function BrowseContainer({ slides }) {
 					</Header.Group>
 				</Header.Frame>
 				<Header.Feature>
-					<Header.FeatureCallOut>Watch Joker Now</Header.FeatureCallOut>
+					<Header.FeatureCallOut>
+						Watch Neon Genesis Evangelion Now
+					</Header.FeatureCallOut>
 					<Header.Text>
-						Forever alone in a crowd, failed comedian Arthur Fleck seeks
-						connection as he walks the streets of Gotham City. Arthur wears two
-						masks -- the one he paints for his day job as a clown, and the guise
-						he projects in a futile attempt to feel like he's part of the world
-						around him.
+						Fifteen years after a cataclysmic event known as the Second Impact,
+						the world faces a new threat: monstrous celestial beings called
+						"Angels" invade Tokyo-3 one by one. Mankind is unable to defend
+						themselves against the Angels despite utilizing their most advanced
+						munitions and military tactics.
 					</Header.Text>
 					<Header.PlayButton>Play</Header.PlayButton>
 				</Header.Feature>
