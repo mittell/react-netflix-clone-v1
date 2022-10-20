@@ -51,6 +51,7 @@
 			"<rootDir>/src/**/*.js",
 			"<rootDir>/src/**/*.jsx",
 			"!<rootDir>/src/index.js",
+			"!<rootDir>/src/app.jsx",
 			"!<rootDir>/src/seed.js",
 			"!<rootDir>/src/global-styles.jsx",
 			"!<rootDir>/src/components/index.jsx",
