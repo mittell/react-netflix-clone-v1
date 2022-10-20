@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Accordion/> renders the <Accordion/> with populated data 1`] = `
+<div
+  class="sc-bcXHqe lasidS"
+>
+  <div
+    class="sc-gswNZR fzxdGm"
+  >
+    <h1
+      class="sc-dkrFOg jiuYXT"
+    >
+      Frequently Asked Questions
+    </h1>
+    <div
+      class="sc-hLBbgP jTfJXm"
+    >
+      <div
+        class="sc-eDvSVe fNeZWV"
+      >
+        What is Aniflix?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-hLBbgP jTfJXm"
+    >
+      <div
+        class="sc-eDvSVe fNeZWV"
+      >
+        How much does Aniflix cost?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-hLBbgP jTfJXm"
+    >
+      <div
+        class="sc-eDvSVe fNeZWV"
+      >
+        Where can I watch?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-hLBbgP jTfJXm"
+    >
+      <div
+        class="sc-eDvSVe fNeZWV"
+      >
+        How do I cancel?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-hLBbgP jTfJXm"
+    >
+      <div
+        class="sc-eDvSVe fNeZWV"
+      >
+        What can I watch on Aniflix?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
