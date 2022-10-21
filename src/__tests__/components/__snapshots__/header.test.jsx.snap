@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header/> renders the basic <Header/> with a background 1`] = `
+<div
+  class="header__Background-sc-nb0keb-0 dCYxwi"
+  data-testid="header-bg"
+>
+  <div
+    class="header__Container-sc-nb0keb-1 hWVUQq"
+  >
+    <p
+      class="header__Link-sc-nb0keb-7 gbxYXX"
+    >
+      Hello I am a link!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Header/> renders the basic <Header/> without a background 1`] = `
+<div
+  class="header__Container-sc-nb0keb-1 hWVUQq"
+>
+  <p
+    class="header__Link-sc-nb0keb-7 wUrsP"
+  >
+    Hello I am a link!
+  </p>
+</div>
+`;
+
+exports[`<Header/> renders the full <Header/> with a background 1`] = `
+<div
+  class="header__Background-sc-nb0keb-0 krNzDd"
+  data-testid="header-bg"
+  src="evangelion-2"
+>
+  <div
+    class="header__Container-sc-nb0keb-1 hWVUQq"
+  >
+    <div
+      class="header__Group-sc-nb0keb-8 HooCG"
+    >
+      <p
+        class="header__Link-sc-nb0keb-7 wUrsP"
+      >
+        Series
+      </p>
+      <p
+        class="header__Link-sc-nb0keb-7 wUrsP"
+      >
+        Films
+      </p>
+    </div>
+    <div
+      class="header__Group-sc-nb0keb-8 HooCG"
+    >
+      <div
+        class="header__Search-sc-nb0keb-12 ejSkCn"
+      >
+        <button
+          class="header__SearchIcon-sc-nb0keb-13 cgqljU"
+          data-testid="search-click"
+        >
+          <img
+            alt="Search"
+            src="/images/icons/search.png"
+          />
+        </button>
+        <input
+          class="header__SearchInput-sc-nb0keb-14 fynrjX"
+          data-testid="search-input"
+          placeholder="Search films and series"
+          value="Evangelion"
+        />
+      </div>
+      <div
+        class="header__Profile-sc-nb0keb-11 gCXaHC"
+      >
+        <button
+          class="header__Picture-sc-nb0keb-9 bTakSg"
+          src="/images/users//images/users/1.png.png"
+        />
+        <div
+          class="header__Dropdown-sc-nb0keb-10 bAJLSv"
+        >
+          <div
+            class="header__Group-sc-nb0keb-8 HooCG"
+          >
+            <button
+              class="header__Picture-sc-nb0keb-9 bTakSg"
+              src="/images/users//images/users/1.png.png"
+            />
+            <p
+              class="header__Link-sc-nb0keb-7 wUrsP"
+            >
+              User
+            </p>
+          </div>
+          <div
+            class="header__Group-sc-nb0keb-8 HooCG"
+          >
+            <p
+              class="header__Link-sc-nb0keb-7 wUrsP"
+            >
+              Sign out
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="header__Container-sc-nb0keb-1 header__Feature-sc-nb0keb-4 hWVUQq japCWc"
+  >
+    <h2
+      class="header__FeatureCallOut-sc-nb0keb-6 dWozbI"
+    >
+      Watch Neon Genesis Evangelion Now
+    </h2>
+    <p
+      class="header__Text-sc-nb0keb-5 hbCCCy"
+    >
+      Fifteen years after...
+    </p>
+    <button
+      class="header__PlayButton-sc-nb0keb-15 lgrQwI"
+    >
+      Play
+    </button>
+  </div>
+</div>
+`;
