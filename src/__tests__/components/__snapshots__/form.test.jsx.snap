@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Form/> renders <Form/> with an error 1`] = `
+<div
+  class="form__Container-sc-7erizj-0 esGAAj"
+>
+  <div
+    class="form__Error-sc-7erizj-1 bYcoco"
+  >
+    Your email address is already being used
+  </div>
+  <button
+    class="form__Submit-sc-7erizj-8 koFFBU"
+    type="submit"
+  >
+    Sign In
+  </button>
+</div>
+`;
+
+exports[`<Form/> renders <Form/> with populated data 1`] = `
+<div
+  class="form__Container-sc-7erizj-0 esGAAj"
+>
+  <h1
+    class="form__Title-sc-7erizj-3 bBsRdF"
+  >
+    Sign In Now
+  </h1>
+  <form
+    class="form__Base-sc-7erizj-2 gEaooO"
+  >
+    <input
+      class="form__Input-sc-7erizj-7 bOiiFd"
+      placeholder="Email Address"
+    />
+    <input
+      class="form__Input-sc-7erizj-7 bOiiFd"
+      placeholder="Password"
+      type="password"
+    />
+    <button
+      class="form__Submit-sc-7erizj-8 koFFBU"
+      disabled=""
+      type="submit"
+    >
+      Sign In
+    </button>
+  </form>
+  <p
+    class="form__Text-sc-7erizj-4 epXxZU"
+  >
+    New to Aniflix? 
+    .
+  </p>
+  <p
+    class="form__TextSmall-sc-7erizj-5 hbTGBU"
+  >
+    This page is protected by Google reCAPTCHA to ensure you're not a bit. Learn more.
+  </p>
+</div>
+`;
