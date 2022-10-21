@@ -35,7 +35,7 @@ export const Group = styled.div`
 
 	> ${Container}:first-of-type {
 		@media (min-width: 1000px) {
-			margin-top: 150px;
+			margin-top: 50px;
 		}
 	}
 `;

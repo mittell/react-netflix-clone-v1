@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Profiles/> renders the <Profiles/> with populated data 1`] = `
+<div
+  class="profiles__Container-sc-vxx6u-0 ghizNT"
+>
+  <h1
+    class="profiles__Title-sc-vxx6u-1 govzkx"
+  >
+    Who's watching?
+  </h1>
+  <ul
+    class="profiles__List-sc-vxx6u-2 fiJoNg"
+  >
+    <li
+      class="profiles__Item-sc-vxx6u-5 caxjCI"
+    >
+      <img
+        class="profiles__Picture-sc-vxx6u-4 cNKCUz"
+        data-testid="profile-picture"
+        src="/images/users//images/users/1.png.png"
+      />
+      <p
+        class="profiles__Name-sc-vxx6u-3 dkGotw"
+      >
+        User
+      </p>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Profiles/> renders the <Profiles/> with populated data but misc profile image 1`] = `
+<div
+  class="profiles__Container-sc-vxx6u-0 ghizNT"
+>
+  <h1
+    class="profiles__Title-sc-vxx6u-1 govzkx"
+  >
+    Who's watching?
+  </h1>
+  <ul
+    class="profiles__List-sc-vxx6u-2 fiJoNg"
+  >
+    <li
+      class="profiles__Item-sc-vxx6u-5 caxjCI"
+    >
+      <img
+        class="profiles__Picture-sc-vxx6u-4 cNKCUz"
+        data-testid="profile-picture-misc"
+        src="/images/misc/loading.gif"
+      />
+      <p
+        class="profiles__Name-sc-vxx6u-3 dkGotw"
+      >
+        User
+      </p>
+    </li>
+  </ul>
+</div>
+`;
