@@ -52,6 +52,8 @@
 			"<rootDir>/src/**/*.jsx",
 			"!<rootDir>/src/index.js",
 			"!<rootDir>/src/app.jsx",
+			"!<rootDir>/src/helpers/routes.jsx",
+			"!<rootDir>/src/lib/firebase.prod.js",
 			"!<rootDir>/src/seed.js",
 			"!<rootDir>/src/global-styles.jsx",
 			"!<rootDir>/src/components/index.jsx",
